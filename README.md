@@ -16,6 +16,9 @@ $ pip install -r requirements.txt
 ```bash
 $ cp .env.example .env
 ```
+```bash
+export PS1="\[\033[01;32m\]\u@\h:\w\n\[\033[00m\]\$ "
+```
 
 ### Run Alembic Migration
 
